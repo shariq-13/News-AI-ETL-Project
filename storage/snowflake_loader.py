@@ -8,8 +8,8 @@ load_dotenv()
 # Snowflake connection config
 # Password is read from environment variable — never hardcode it
 SNOWFLAKE_CONFIG = {
-    "account":   "NHZOCAW-EXC99808",
-    "user":      "BILAL03",
+    "account":   "",
+    "user":      "",
     "password":  os.getenv("SNOWFLAKE_PASSWORD"),
     "warehouse": "NEWS_WH",
     "database":  "NEWS_AI_ETL",
