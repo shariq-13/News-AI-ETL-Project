@@ -1,0 +1,15 @@
+/home/shariq/projects/news-ai-etl/
+│
+├── airflow.cfg          ← Airflow configuration
+├── airflow.db           ← SQLite database
+├── logs/                ← Task and scheduler logs
+├── plugins/             ← Custom plugins (created automatically if needed)
+├── dags/                ← Your DAG Python files
+│   └── news_ai_etl_dag.py
+├── ingestion/
+├── storage/
+├── snowflake_queries/
+├── venv/
+├── requirements.txt
+├── run.py
+└── README.md
